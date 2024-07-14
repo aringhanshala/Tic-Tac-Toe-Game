@@ -1,0 +1,141 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color:blanchedalmond;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+main h1{
+    font-size: 2.5rem;
+    line-height:4rem;
+    background-color: #081b31;
+    color:white;
+}
+
+main h2{
+    font-size:1.8rem;
+    margin-top:2rem;
+}
+
+.container{
+    height:70vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game{
+    height:60vmin;
+    width:60vmin;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    gap:1.5vmin;
+}
+
+.box{
+    height:18vmin;
+    width:18vmin;
+    border-radius:1rem;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.15);
+    font-size:10vmin;
+    color:darkred;
+    background-color: white;
+    border:1.5px solid black;
+}
+
+#reset-btn{
+    padding:0.8rem;
+    font-size:1.25rem;
+    border-radius: 1rem;
+    cursor:pointer;
+}
+
+#new-btn{
+    padding:0.8rem;
+    font-size:1.25rem;
+    border-radius: 1rem;
+    cursor:pointer;
+}
+
+#msg{
+    font-size: 5vmin;
+}
+
+.msg-container{
+    height:100vmin;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:2rem;
+}
+
+
+.hide{
+    display:none; 
+}
+
+.pop-up-msg{
+    height:30vmin;
+    width:70vmin;
+    background-color: white;
+    border:1.5px solid black;
+    z-index:2;
+    position:fixed;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    border-radius: 0.5rem;
+}
+
+.pop-up-msg h1{
+    margin-top:1rem;
+    font-size:2.5rem;
+}
+
+.pop-up-msg h2{
+    margin-top:1rem;
+}
+
+.pop-up-msg button{
+    margin-top:2rem;
+    padding:1rem;
+    font-size:1rem;
+    font-weight:700;
+    margin-right:3rem;
+    margin-left:3rem;
+    background-color:aquamarine;
+    cursor:pointer;
+    border-radius: 0.5rem;
+}
+
+@media(max-width:600px){
+    .pop-up-msg h1{
+        font-size:2rem;
+        margin-top:0.1rem;
+    }
+
+    .pop-up-msg h2{
+        font-size:1.5rem;
+        margin-top:0.1rem;
+    }
+
+    .pop-up-msg{
+        height:80vmin;
+    }
+
+    .congrats{
+        position:absolute;
+        top:50%;
+        left:50%;
+        transform:translate(-50%,-50%);
+    }
+
+}
+
