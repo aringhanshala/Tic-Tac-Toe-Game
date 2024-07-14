@@ -137,5 +137,10 @@ main h2{
         transform:translate(-50%,-50%);
     }
 
+    #reset-btn{
+        position:relative;
+        bottom:30px;
+    }
+
 }
 
