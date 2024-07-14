@@ -117,17 +117,23 @@ main h2{
 
 @media(max-width:600px){
     .pop-up-msg h1{
-        font-size:2rem;
+        font-size:3rem;
         margin-top:0.1rem;
     }
 
     .pop-up-msg h2{
-        font-size:1.5rem;
+        font-size:2rem;
         margin-top:0.1rem;
     }
 
     .pop-up-msg{
         height:80vmin;
+        width:90vmin;
+    }
+
+    .pop-up-msg button{
+        font-size: 2rem;
+        margin-top:1rem;
     }
 
     .congrats{
@@ -140,7 +146,34 @@ main h2{
     #reset-btn{
         position:relative;
         bottom:30px;
+        font-size: 2rem;
     }
 
+    .game{
+        width:100vmin;
+        height:100vmin;
+    }
+
+    .box{
+        height:30vmin;
+        width:30vmin;
+        font-size: 5rem;
+    }
+
+    main h1{
+        font-size: 4rem;
+    }
+
+    main h2{
+        font-size: 3rem;
+    }
+
+    #msg{
+        font-size: 3rem;
+    }
+
+    #new-btn{
+        font-size: 2.5rem;
+    }
 }
 
