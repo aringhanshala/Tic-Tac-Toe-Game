@@ -9,4 +9,7 @@ I have created a classic Tic Tac Toe game using HTML, CSS, and JavaScript. This 
 - **Interactive Gameplay**: Enjoy a seamless and engaging gaming experience.
 - **Simple and Clean UI**: A user-friendly interface that enhances the playing experience.
 
+### Live Demo
+Check out the live demo of the game https://aringhanshala.github.io/Tic-Tac-Toe-Game/.
+
 Feel free to explore the code, give it a try, and provide any feedback or suggestions!
